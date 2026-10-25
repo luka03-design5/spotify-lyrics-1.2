@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "spotifylyrics",
+  "version": "${version}",
+  "name": "Spotify Lyrics",
+  "description": "Zeigt synchronisierte Spotify-Lyrics als schwebende 3D-Schrift. Menü mit der Taste K.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.axiom.lyrics.LyricsClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
